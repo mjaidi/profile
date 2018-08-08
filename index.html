@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Simple Profile Page</title>
+
+  <!-- Google Desription content-->
+  <meta name= "description" content="This is a simple profile page for myself"> 
+  
+  <!-- Facebook Description Properties-->
+  <meta property="og:title" content ="My Profile facebook title"> 
+  <meta property="og:description" content= "This is a simple profile page">
+
+  <!--Fontawesome for font symbols -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
+  <!-- Google fonts Open Sans and Montserrat-->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Montserrat:400,700">
+
+  <!-- CSS Style Sheets -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div name = "top" class="container">
+
+    <div class="card card-center">
+      <img class="avatar-img" src="images/photo.jpeg" alt="my image">
+      <h1>Majid Jaidi</h1>
+      <h3>Programmer</h3>
+        <p class = "bottom-padding">I am currently learning how to program with Ruby on Rails</p>
+      <a href="#top" class="btn-blue">See for yourself</a>
+    </div>
+
+    <div class="card card-center">
+      <h3>My Social Networks</h3>
+      <ul class="list-inline">
+        <li>
+          <a href="https://www.facebook.com/majid.jaidi.7">
+            <i class="fab fa-facebook icons-lg"></i><br>Facebook
+          </a>
+        </li>
+        <li>
+          <a href="https://ma.linkedin.com/in/majid-jaidi-839a8b44">
+            <i class="fab fa-linkedin icons-lg"></i><br>Linkedin
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="card card-center">
+      <h3>My Favorite Movies</h3>
+      <table>
+        <tbody>
+          <tr>
+            <td><img class="table-img" src="images/shawshank.jpeg" alt=""></td>
+            <td>
+              <h4>Shawshank Redemption</h4>
+              <p>Chronicles the experiences of a formerly successful banker as a prisoner in the gloomy jailhouse of Shawshank after being found guilty of a crime he did not commit. The film portrays the man's unique way of dealing with his new, torturous life; along the way he befriends a number of fellow prisoners, most notably a wise long-term inmate named </p>
+            </td>
+          </tr>
+          <tr>
+            <td><img class="table-img" src="images/momento.jpeg" alt=""></td>
+            <td>
+              <h4>Momento</h4>
+              <p>Leonard (Guy Pearce) is tracking down the man who raped and murdered his wife. The difficulty, however, of locating his wife's killer is compounded by the fact that he suffers from a rare, untreatable form of memory loss. Although he can recall details of life before his accident, Leonard cannot remember what happened fifteen minutes ago, where he's going, or why.</p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  
+    <div class= "card card-center">
+      <h3>About this page</h3>
+      <p>This page has been coded during the FullStack program <a href="https://www.lewagon.com/">@LeWagon</a>. That was probably the best experience of my entire life.</p>
+      <ul class="list-inline">
+        <li><a href="#top"><i class="fa fa-heart icons-lg"></i></a></li>
+        <li><a href="#top"><i class="fa fa-share icons-lg"></i></a></li>
+        <li><a href="#top"><i class="fa fa-star icons-lg"></i></a></li>
+      </ul>
+    </div>
+  </div>
+
+</body>
+</html>
