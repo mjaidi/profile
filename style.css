@@ -51,6 +51,7 @@ table {
   .container {
     width: 500px;
   }
+
 }
 @media (max-width: 540px) {
   /* For a screen < 540px, this CSS will be read */
@@ -64,11 +65,11 @@ table {
 }
 
 .card {
-  border-radius: 5px;
+  border-radius: 2px;
   background-color: white;
-  box-shadow: 1px 2px 5px black;
+  box-shadow: 1px 1px 2px grey;
   padding: 20px;
-  margin-bottom: 15px;
+  margin-top: 20px;
 }
 
 .card-center {
@@ -113,4 +114,31 @@ table {
 
 .bottom-padding {
   padding-bottom: 10px;
+}
+
+.sidebar-icon {
+  font-size: 25px;
+  color: grey;
+}
+
+.sidebar-icon:hover {
+  color: white;
+}
+
+#sidebar {
+  position: fixed;
+  width: 120px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #384047;
+}
+
+#sidebar li {
+  padding-top: 40px;
+  padding-left: 0px;
+}
+
+#page-content {
+  margin-left: 120px;
 }
